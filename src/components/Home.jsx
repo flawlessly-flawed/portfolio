@@ -1,6 +1,7 @@
 import React from 'react'
 import hijabi from '../assets/hijabi.png' 
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import heroImage from '../assets/heroImage.png'
 
 const Home = () => {
   return (
@@ -32,7 +33,7 @@ const Home = () => {
         </div>
         <div>
             <img src={hijabi} alt="my profile"
-            className='rounded-2xl mx-auto w-4/3 md:w-full'/>
+            className='rounded-2xl mx-auto w-2/3 md:w-full'/>
         </div>
        </div>
     </div>
