@@ -1,37 +1,37 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import business from '../assets/portfolio/business.png'
+import food from '../assets/portfolio/food.png'
+import frontend from '../assets/portfolio/frontend.png'
+import gpt3 from '../assets/portfolio/gpt3.png'
+import nuxt from '../assets/portfolio/nuxt.png'
+import swift from '../assets/portfolio/swift.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
-            src:arrayDestruct
+            src:business
         },
         {
             id: 2,
-            src:arrayDestruct
+            src:frontend
         },
         {
             id: 3,
-            src:arrayDestruct
+            src:food
         },
         {
             id: 4,
-            src:arrayDestruct
+            src:gpt3
         },
         {
             id: 5,
-            src:arrayDestruct
+            src:nuxt
         },
         {
             id: 6,
-            src:arrayDestruct
+            src:swift
         },
     ]
   return (
@@ -51,7 +51,7 @@ const Portfolio = () => {
                 
                 <div key={id} className='shadow-md shadow-gray-600
                 rounded-lg'>
-                    <img src={reactWeather} className='rounded-md
+                    <img src={src} className='rounded-md
                     duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
                         <button className='w-1/2 px-6 py-3 duration-200
