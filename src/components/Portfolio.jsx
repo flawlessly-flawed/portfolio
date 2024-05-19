@@ -11,7 +11,9 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src:business
+            src:business,
+           href: "https://flawlessly-flawed.github.io/foodwebsite/"
+            
         },
         {
             id: 2,
@@ -47,17 +49,17 @@ const Portfolio = () => {
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 
             gap-8 px-12 sm:px-0'>
 
-            {portfolios.map(({id, src}) =>(
+            {portfolios.map(({id, src,href}) =>(
                 
                 <div key={id} className='shadow-md shadow-gray-600
                 rounded-lg'>
                     <img src={src} alt="" className='rounded-md
                     duration-200 hover:scale-105'/>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 duration-200
-                        hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-6 py-3 duration-200
-                        hover:scale-105'>Code</button>
+                       <a href={href}> <button className='w-1/2 px-6 py-3 duration-200
+                        hover:scale-105'>Demo</button></a>
+                        <a href={code}><button className='w-1/2 px-6 py-3 duration-200
+                        hover:scale-105'>Code</button></a>
                     </div>
                 
             </div>
