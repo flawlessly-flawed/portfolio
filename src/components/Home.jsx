@@ -1,5 +1,5 @@
 import React from 'react'
-import hijabi from '../assets/hijabi.png' 
+import myimage from '../assets/myimage.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -13,10 +13,10 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold
             text-white'>I'm a Full Stack Developer</h2>
             <p className='text-gray-500 py-4 max-w-md'>
-                I have 4 years of experience in building and
+                I have 2 years of experience in building and
                 designing software. Currently, I love to work on web 
                 applications using technologies like React, Tailwind,
-                Next JS and GraphQL.
+                Nuxt JS and Nodejs.
             </p>
 
             <div>
@@ -32,7 +32,7 @@ const Home = () => {
             </div>
         </div>
         <div>
-            <img src={hijabi} alt="my profile"
+            <img src={myimage} alt="my profile"
             className='rounded-2xl mx-auto w-2/3 md:w-full'/>
         </div>
        </div>

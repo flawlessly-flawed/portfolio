@@ -12,24 +12,32 @@ const Portfolio = () => {
         {
             id: 1,
             src:business,
-           href: "https://flawlessly-flawed.github.io/foodwebsite/"
+           href: "https://business-maryam.netlify.app/",
+           code:"https://github.com/flawlessly-flawed/business-website"
             
         },
         {
             id: 2,
-            src:frontend
+            src:frontend,
+           href:"https://flawlessly-flawed.github.io/frontenddeveloprchallenge/",
+           code:"https://github.com/flawlessly-flawed/frontenddeveloprchallenge"
         },
         {
             id: 3,
-            src:food
+            src:food,
+            href: "https://flawlessly-flawed.github.io/foodwebsite/",
+            code:"https://github.com/flawlessly-flawed/foodwebsite"
         },
         {
             id: 4,
-            src:gpt3
+            src:gpt3,
+            href:"https://flawlessly-flawed.github.io/gpt-3/",
+            code:"https://github.com/flawlessly-flawed/gpt-3"
         },
         {
             id: 5,
-            src:nuxt
+            src:nuxt,
+            
         },
         {
             id: 6,
@@ -49,7 +57,7 @@ const Portfolio = () => {
             <div  className='grid sm:grid-cols-2 md:grid-cols-3 
             gap-8 px-12 sm:px-0'>
 
-            {portfolios.map(({id, src,href}) =>(
+            {portfolios.map(({id, src,href,code}) =>(
                 
                 <div key={id} className='shadow-md shadow-gray-600
                 rounded-lg'>

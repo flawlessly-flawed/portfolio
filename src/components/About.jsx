@@ -11,22 +11,16 @@ const About = () => {
                 border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-20'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-             Excepturi praesentium ea maxime vitae blanditiis aliquam porro, 
-             accusamus inventore animi laborum officia odio! In, architecto. 
-             Provident blanditiis accusantium soluta eius harum labore fugiat 
-             debitis quaerat reprehenderit! Atque, qui expedita. Assumenda quia 
-             ipsam dolorem expedita id eligendi esse ipsum consequuntur, 
-             debitis neque?
+            Welcome to my portfolio! I'm Maryam, 
+            a dedicated software developer with a passion for empowering women
+             in tech to reach new heights. With a strong foundation in programming and a keen eye for detail,
+              I strive to create innovative solutions that make a positive impact in the world.
              </p>
              <br />
-             <p className='text-xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                 Inventore modi in iste nam similique doloribus debitis libero 
-                 deserunt molestiae nulla. Commodi voluptatibus incidunt 
-                 quisquam quos voluptatem iste! Dignissimos et, itaque modi h
-                 arum officia eveniet odit aliquid quasi placeat corrupti
-                  expedita vitae nulla est eum impedit ipsa molestias aut 
-                  corporis? Ipsa.</p>
+             <p className='text-xl'>Driven by my unwavering commitment to excellence,
+              I approach each project with enthusiasm and determination. 
+              Whether it's crafting elegant code or collaborating with teams to bring ideas to life,
+              I thrive in dynamic environments where creativity and problem-solving skills are put to the test.</p>
         </div>
     </div>
   )
