@@ -1,8 +1,8 @@
 import React from 'react'
 import business from '../assets/portfolio/business.png'
 import food from '../assets/portfolio/food.png'
-import frontend from '../assets/portfolio/frontend.png'
-import gpt3 from '../assets/portfolio/gpt3.png'
+import easypay from '../assets/portfolio/easypay.png'
+import portfolio from '../assets/portfolio/portfolio.png'
 import nuxt from '../assets/portfolio/nuxt.png'
 import swift from '../assets/portfolio/swift.png'
 
@@ -18,9 +18,9 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src:frontend,
-           href:"https://flawlessly-flawed.github.io/frontenddeveloprchallenge/",
-           code:"https://github.com/flawlessly-flawed/frontenddeveloprchallenge"
+            src:easypay,
+           href:"https://easypaydemo.netlify.app/",
+           code:"https://github.com/flawlessly-flawed/easypay"
         },
         {
             id: 3,
@@ -30,9 +30,9 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src:gpt3,
-            href:"https://flawlessly-flawed.github.io/gpt-3/",
-            code:"https://github.com/flawlessly-flawed/gpt-3"
+            src:portfolio,
+            href:"https://mariamibraheem.netlify.app/",
+            code:"https://github.com/flawlessly-flawed/portfolio"
         },
         {
             id: 5,
