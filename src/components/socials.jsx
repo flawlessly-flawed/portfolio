@@ -46,7 +46,7 @@ const Socials = () => {
           Resume <BsFillPersonLinesFill size={30}/>
           </>
         ),
-        href: '/resume.pdf',
+        href: '/Mariam-Ibraheem-CV.pdf',
         style: 'rounded-br-md',
         download: true,
 
