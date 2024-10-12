@@ -11,9 +11,9 @@ const Home = () => {
        items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-4xl sm:text-7xl font-bold
-            text-white'>I'm a Frontend Developer and Project Manager</h2>
+            text-white'>I'm a Software Engineer and Product Manager</h2>
             <p className='text-gray-500 py-4 max-w-md'>
-                I have 2 years of experience in building and
+                I have 4 years of experience in building and
                 designing software. Currently, I love to work on web 
                 applications using technologies like React, Tailwind,
                 Nuxt JS and Nodejs.
